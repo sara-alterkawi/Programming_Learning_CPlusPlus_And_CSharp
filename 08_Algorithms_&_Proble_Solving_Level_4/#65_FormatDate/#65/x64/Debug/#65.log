@@ -1,0 +1,5 @@
+﻿  #65.cpp
+D:\Free_Learning\MAH_C++_Course\08_Algorithms_&_Proble_Solving_Level_4\#65_FormatDate\#65\#65.cpp(32,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+D:\Free_Learning\MAH_C++_Course\08_Algorithms_&_Proble_Solving_Level_4\#65_FormatDate\#65\#65.cpp(51,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Free_Learning\MAH_C++_Course\08_Algorithms_&_Proble_Solving_Level_4\#65_FormatDate\#65\#65.cpp(55,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  #65.vcxproj -> D:\Free_Learning\MAH_C++_Course\08_Algorithms_&_Proble_Solving_Level_4\#65_FormatDate\x64\Debug\#65.exe
