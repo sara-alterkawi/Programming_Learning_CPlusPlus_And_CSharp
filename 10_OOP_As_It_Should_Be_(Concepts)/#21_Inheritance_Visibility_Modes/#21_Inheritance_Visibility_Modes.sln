@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "#21_Inheritance_Visibility_Modes", "#21_Inheritance_Visibility_Modes\#21_Inheritance_Visibility_Modes.vcxproj", "{AA58E7BC-7339-46F9-AF3F-A5712E7EC7DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA58E7BC-7339-46F9-AF3F-A5712E7EC7DC}.Debug|x64.ActiveCfg = Debug|x64
+		{AA58E7BC-7339-46F9-AF3F-A5712E7EC7DC}.Debug|x64.Build.0 = Debug|x64
+		{AA58E7BC-7339-46F9-AF3F-A5712E7EC7DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA58E7BC-7339-46F9-AF3F-A5712E7EC7DC}.Debug|x86.Build.0 = Debug|Win32
+		{AA58E7BC-7339-46F9-AF3F-A5712E7EC7DC}.Release|x64.ActiveCfg = Release|x64
+		{AA58E7BC-7339-46F9-AF3F-A5712E7EC7DC}.Release|x64.Build.0 = Release|x64
+		{AA58E7BC-7339-46F9-AF3F-A5712E7EC7DC}.Release|x86.ActiveCfg = Release|Win32
+		{AA58E7BC-7339-46F9-AF3F-A5712E7EC7DC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A5DAB27-D144-4AA7-9AEC-B7E50A336F78}
+	EndGlobalSection
+EndGlobal
