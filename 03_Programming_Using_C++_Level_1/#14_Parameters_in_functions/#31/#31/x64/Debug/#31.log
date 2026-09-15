@@ -1,0 +1,5 @@
+﻿  #31.cpp
+D:\Free_Learning\MAH_C++_Course\14th_Parameters_in_Functions\#31\#31\#31.cpp(11,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Free_Learning\MAH_C++_Course\14th_Parameters_in_Functions\#31\#31\#31.cpp(17,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Free_Learning\MAH_C++_Course\14th_Parameters_in_Functions\#31\#31\#31.cpp(23,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  #31.vcxproj -> D:\Free_Learning\MAH_C++_Course\14th_Parameters_in_Functions\#31\x64\Debug\#31.exe

@@ -1,0 +1,4 @@
+﻿  #19.cpp
+D:\Free_Learning\MAH_C++_Course\14th_Parameters_in_Functions\#19\#19\#19.cpp(12,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Free_Learning\MAH_C++_Course\14th_Parameters_in_Functions\#19\#19\#19.cpp(23,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+  #19.vcxproj -> D:\Free_Learning\MAH_C++_Course\14th_Parameters_in_Functions\#19\x64\Debug\#19.exe

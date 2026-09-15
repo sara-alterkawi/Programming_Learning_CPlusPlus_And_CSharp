@@ -1,0 +1,4 @@
+﻿  #23.cpp
+D:\Free_Learning\MAH_C++_Course\9th_Math_functions\#23\#23\#23.cpp(23,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Free_Learning\MAH_C++_Course\9th_Math_functions\#23\#23\#23.cpp(26,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  #23.vcxproj -> D:\Free_Learning\MAH_C++_Course\9th_Math_functions\#23\x64\Debug\#23.exe
