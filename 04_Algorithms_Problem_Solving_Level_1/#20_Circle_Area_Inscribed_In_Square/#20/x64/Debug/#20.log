@@ -1,0 +1,4 @@
+﻿  #20.cpp
+D:\Free_Learning\MAH_C++_Course\04_Algorithms_&Problem_Solving_Level1\#16_to_20\#20\#20\#20.cpp(21,31): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Free_Learning\MAH_C++_Course\04_Algorithms_&Problem_Solving_Level1\#16_to_20\#20\#20\#20.cpp(33,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  #20.vcxproj -> D:\Free_Learning\MAH_C++_Course\04_Algorithms_&Problem_Solving_Level1\#16_to_20\#20\x64\Debug\#20.exe
