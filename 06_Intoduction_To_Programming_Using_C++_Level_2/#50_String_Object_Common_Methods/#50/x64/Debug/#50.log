@@ -1,0 +1,4 @@
+﻿  #50.cpp
+D:\Free_Learning\MAH_C++_Course\05_Algorithms_&Problem_Solving_Level2\#46_to_#50\#50_My_SQRT\#50\#50.cpp(25,12): warning C4244: 'return': conversion from 'double' to 'short', possible loss of data
+D:\Free_Learning\MAH_C++_Course\05_Algorithms_&Problem_Solving_Level2\#46_to_#50\#50_My_SQRT\#50\#50.cpp(33,39): warning C4244: 'argument': conversion from 'float' to 'short', possible loss of data
+  #50.vcxproj -> D:\Free_Learning\MAH_C++_Course\05_Algorithms_&Problem_Solving_Level2\#46_to_#50\#50_My_SQRT\x64\Debug\#50.exe
