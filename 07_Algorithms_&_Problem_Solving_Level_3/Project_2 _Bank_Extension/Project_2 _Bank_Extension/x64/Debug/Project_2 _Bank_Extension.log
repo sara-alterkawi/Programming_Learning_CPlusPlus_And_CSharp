@@ -1,0 +1,6 @@
+﻿  Project_2 _Bank_Extension.cpp
+D:\Free_Learning\MAH_C++_Course\Projects\07_Algorithms_&_Problem_Solving_Level_3_Projects\Project_2 _Bank_Extension\Project_2 _Bank_Extension\Project_2 _Bank_Extension.cpp(111,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+D:\Free_Learning\MAH_C++_Course\Projects\07_Algorithms_&_Problem_Solving_Level_3_Projects\Project_2 _Bank_Extension\Project_2 _Bank_Extension\Project_2 _Bank_Extension.cpp(484,1): warning C4715: 'DepositBalanceToClientByAccountNumber': not all control paths return a value
+D:\Free_Learning\MAH_C++_Course\Projects\07_Algorithms_&_Problem_Solving_Level_3_Projects\Project_2 _Bank_Extension\Project_2 _Bank_Extension\Project_2 _Bank_Extension.cpp(462,1): warning C4715: 'UpdateClientByAccountNumber': not all control paths return a value
+D:\Free_Learning\MAH_C++_Course\Projects\07_Algorithms_&_Problem_Solving_Level_3_Projects\Project_2 _Bank_Extension\Project_2 _Bank_Extension\Project_2 _Bank_Extension.cpp(430,1): warning C4715: 'DeleteByAccountNumber': not all control paths return a value
+  Project_2 _Bank_Extension.vcxproj -> D:\Free_Learning\MAH_C++_Course\Projects\07_Algorithms_&_Problem_Solving_Level_3_Projects\Project_2 _Bank_Extension\x64\Debug\Project_2 _Bank_Extension.exe

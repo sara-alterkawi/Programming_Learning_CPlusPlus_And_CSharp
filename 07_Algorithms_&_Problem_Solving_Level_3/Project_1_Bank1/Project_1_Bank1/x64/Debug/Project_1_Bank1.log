@@ -1,0 +1,5 @@
+﻿  Project_1_Bank1.cpp
+D:\Free_Learning\MAH_C++_Course\Projects\07 - Algorithms & Problem Solving Level 3\Project_1_Bank1\Project_1_Bank1\Project_1_Bank1.cpp(49,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+D:\Free_Learning\MAH_C++_Course\Projects\07 - Algorithms & Problem Solving Level 3\Project_1_Bank1\Project_1_Bank1\Project_1_Bank1.cpp(333,1): warning C4715: 'DeleteByAccountNumber': not all control paths return a value
+D:\Free_Learning\MAH_C++_Course\Projects\07 - Algorithms & Problem Solving Level 3\Project_1_Bank1\Project_1_Bank1\Project_1_Bank1.cpp(365,1): warning C4715: 'UpdateClientByAccountNumber': not all control paths return a value
+  Project_1_Bank1.vcxproj -> D:\Free_Learning\MAH_C++_Course\Projects\07 - Algorithms & Problem Solving Level 3\Project_1_Bank1\x64\Debug\Project_1_Bank1.exe

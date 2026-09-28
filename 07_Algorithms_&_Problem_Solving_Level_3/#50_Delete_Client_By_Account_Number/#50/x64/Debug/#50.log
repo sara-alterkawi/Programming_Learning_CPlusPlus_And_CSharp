@@ -1,0 +1,4 @@
+﻿  #50.cpp
+D:\Free_Learning\MAH_C++_Course\07 - Algorithms & Problem Solving Level 3\#50_Delete_Client_By_Account_Number\#50\#50.cpp(42,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+D:\Free_Learning\MAH_C++_Course\07 - Algorithms & Problem Solving Level 3\#50_Delete_Client_By_Account_Number\#50\#50.cpp(188,1): warning C4715: 'DeleteByAccountNumber': not all control paths return a value
+  #50.vcxproj -> D:\Free_Learning\MAH_C++_Course\07 - Algorithms & Problem Solving Level 3\#50_Delete_Client_By_Account_Number\x64\Debug\#50.exe
