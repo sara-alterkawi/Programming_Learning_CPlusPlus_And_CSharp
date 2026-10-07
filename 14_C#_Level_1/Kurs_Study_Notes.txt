@@ -1,0 +1,892 @@
+# C# Windows Forms Controls – Level 1
+
+## 1. Form (`FRM`)
+
+### 🔎 Definition
+
+🔹 A **Form** is the main window of a Windows Forms application. It is the container where other controls are placed.
+
+### Properties
+
+1️⃣ **Text**
+🔹 Sets the title displayed on the Form.
+
+2️⃣ **(Name)**
+🔹 Defines the name used to identify the Form in the code.
+
+3️⃣ **Cursor**
+🔹 Defines the shape of the mouse cursor when it moves over the Form.
+
+4️⃣ **Accept Button**
+🔹 Defines the default button that is activated when the user presses **Enter**.
+
+5️⃣ **Cancel Button**
+🔹 Defines the default button that is activated when the user presses **Esc**.
+
+6️⃣ **Is MDI Container**
+🔹 Determines whether the Form can contain multiple child Forms.
+
+### Events
+
+1️⃣ **Load**
+🔹 Occurs when the Form is loaded for the first time.
+
+2️⃣ **Paint**
+🔹 Occurs when the Form is being drawn or redrawn.
+
+---
+
+## 2. Text Box (`TXB`)
+
+### 🔎 Definition
+
+🔹 A **Text Box** allows the user to enter or display text.
+
+### Properties
+
+1️⃣ **Enabled**
+🔹 Enables or disables the Text Box.
+
+2️⃣ **Font**
+🔹 Defines the font type, style, and size.
+
+3️⃣ **Fore Color**
+🔹 Defines the color of the text.
+
+4️⃣ **Location**
+🔹 Defines the position of the Text Box on the Form.
+
+5️⃣ **Size**
+🔹 Defines the width and height of the Text Box.
+
+6️⃣ **Tab Index**
+🔹 Defines the order in which controls are selected when using the **Tab** key.
+
+7️⃣ **Tab Stop**
+🔹 Determines whether the user can reach the Text Box using the **Tab** key.
+
+8️⃣ **Tag**
+🔹 Stores additional information associated with the control.
+
+9️⃣ **Visible**
+🔹 Shows or hides the Text Box.
+
+🔟 **Locked**
+🔹 Prevents the Text Box from being moved or modified in the designer.
+
+1️⃣1️⃣ **Dock**
+🔹 Defines how the Text Box is attached to a side or area of its parent container.
+
+1️⃣2️⃣ **Back Color**
+🔹 Defines the background color.
+
+1️⃣3️⃣ **Password Char**
+🔹 Defines the character used to hide password input.
+
+1️⃣4️⃣ **Read Only**
+🔹 Allows the user to see the text but prevents editing it.
+
+1️⃣5️⃣ **Max Length**
+🔹 Defines the maximum number of characters the user can enter.
+
+1️⃣6️⃣ **Right To Left**
+🔹 Defines the text direction from right to left.
+
+1️⃣7️⃣ **Text Align**
+🔹 Defines the alignment of the text: left, center, or right.
+
+1️⃣8️⃣ **Multi Line**
+🔹 Allows the user to enter more than one line of text.
+
+1️⃣9️⃣ **Word Wrap**
+🔹 Automatically moves text to the next line when it reaches the edge.
+
+2️⃣0️⃣ **Border Style**
+🔹 Defines the appearance of the Text Box border.
+
+2️⃣1️⃣ **Mask**
+🔹 Defines a specific format for user input.
+
+2️⃣2️⃣ **Beep on Error**
+🔹 Produces a sound when invalid input is entered.
+
+2️⃣3️⃣ **Context Menu**
+🔹 Defines the context menu displayed when the user right-clicks the control.
+
+### Events
+
+1️⃣ **Validating**
+🔹 Occurs when the control is being validated before the user leaves it.
+
+---
+
+## 3. Button (`BTN`)
+
+### 🔎 Definition
+
+🔹 A **Button** allows the user to perform an action by clicking it.
+
+### Properties
+
+1️⃣ **Auto Size**
+🔹 Automatically adjusts the Button size according to its content.
+
+2️⃣ **Flat Appearance**
+🔹 Defines whether the Button has a flat appearance.
+
+3️⃣ **Flat Style**
+🔹 Defines the visual style of the Button.
+
+### Events
+
+1️⃣ **Mouse Click**
+🔹 Occurs when the user clicks the Button with the mouse.
+
+2️⃣ **Mouse Down**
+🔹 Occurs when a mouse button is pressed over the Button.
+
+3️⃣ **Mouse Enter**
+🔹 Occurs when the mouse pointer enters the Button.
+
+4️⃣ **Mouse Hover**
+🔹 Occurs when the mouse pointer remains over the Button.
+
+5️⃣ **Mouse Leave**
+🔹 Occurs when the mouse pointer leaves the Button.
+
+6️⃣ **Mouse Move**
+🔹 Occurs when the mouse pointer moves over the Button.
+
+---
+
+## 4. Label (`LBL`)
+
+### 🔎 Definition
+
+🔹 A **Label** displays text that the user can read.
+
+### Properties
+
+🔹 It uses common properties such as **Text, Font, Location, and Size**.
+
+### Events
+
+1️⃣ **Click**
+🔹 Occurs when the user clicks the Label.
+
+---
+
+## 5. Check Box (`CHK`)
+
+### 🔎 Definition
+
+🔹 A **Check Box** allows the user to select or deselect an option.
+
+### Properties
+
+🔹 Uses standard control properties.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 6. Radio Button (`RB`)
+
+### 🔎 Definition
+
+🔹 A **Radio Button** allows the user to select one option from a group of options.
+
+### Properties
+
+🔹 Uses standard control properties.
+
+### Events
+
+1️⃣ **Checked Changed**
+🔹 Occurs when the selected state changes.
+
+---
+
+## 7. Group Box (`GB`)
+
+### 🔎 Definition
+
+🔹 A **Group Box** is a container used to group related controls together.
+
+### Properties
+
+🔹 Uses standard control properties.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 8. Picture Box (`PB`)
+
+### 🔎 Definition
+
+🔹 A **Picture Box** is used to display an image.
+
+### Properties
+
+1️⃣ **Size Mode**
+🔹 Defines how the image is displayed, such as stretched, centered, or fitted.
+
+2️⃣ **Border Style**
+🔹 Defines the style of the border around the image.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 9. Masked Text Box (`MTB`)
+
+### 🔎 Definition
+
+🔹 A **Masked Text Box** allows the user to enter text according to a predefined input format.
+
+### Properties
+
+🔹 Uses properties similar to a Text Box, with additional input-mask functionality.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 10. Combo Box (`CB`)
+
+### 🔎 Definition
+
+🔹 A **Combo Box** allows the user to select an item from a drop-down list.
+
+### Properties
+
+1️⃣ **Item**
+🔹 Represents the items available in the list.
+
+2️⃣ **Drop Down List**
+🔹 Defines the style and behavior of the drop-down list.
+
+3️⃣ **Sorted**
+🔹 Automatically sorts the items alphabetically.
+
+### Events
+
+1️⃣ **Selected Index Changed**
+🔹 Occurs when the selected item changes.
+
+---
+
+## 11. Link Label (`LL`)
+
+### 🔎 Definition
+
+🔹 A **Link Label** displays text that behaves like a hyperlink.
+
+### Properties
+
+1️⃣ **Link Behavior**
+🔹 Defines how the link appears or behaves, such as always underlined or underlined when the mouse is over it.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 12. Check List Box (`CLB`)
+
+### 🔎 Definition
+
+🔹 A **Check List Box** displays a list of items where the user can select multiple items using check boxes.
+
+### Properties
+
+🔹 Uses standard control properties.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 13. Date Time Picker (`DTP`)
+
+### 🔎 Definition
+
+🔹 A **Date Time Picker** allows the user to select a date and/or time.
+
+### Properties
+
+1️⃣ **Show Check Box**
+🔹 Displays a check box that can be used to enable or disable the selected date.
+
+2️⃣ **Show Up Down**
+🔹 Displays up and down buttons for changing the value.
+
+3️⃣ **Max Date**
+🔹 Defines the maximum allowed date.
+
+4️⃣ **Min Date**
+🔹 Defines the minimum allowed date.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 14. Month Calendar (`MC`)
+
+### 🔎 Definition
+
+🔹 A **Month Calendar** displays a calendar and allows the user to select dates.
+
+### Properties
+
+1️⃣ **Max Date**
+🔹 Defines the maximum selectable date.
+
+2️⃣ **Min Date**
+🔹 Defines the minimum selectable date.
+
+3️⃣ **Max Selection Count**
+🔹 Defines the maximum number of days that can be selected.
+
+4️⃣ **Show To Day**
+🔹 Displays the current day.
+
+5️⃣ **Show To Day Circle**
+🔹 Displays a circle around the current day.
+
+6️⃣ **Show Week Number**
+🔹 Displays the week numbers.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 15. Timer (`TR`)
+
+### 🔎 Definition
+
+🔹 A **Timer** performs an action repeatedly after a specified amount of time.
+
+### Properties
+
+1️⃣ **Interval**
+🔹 Defines the time interval in milliseconds between executions.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 16. Notify Icon (`NI`)
+
+### 🔎 Definition
+
+🔹 A **Notify Icon** displays an icon in the Windows notification area.
+
+### Properties
+
+🔹 Uses standard control properties.
+
+### Events
+
+1️⃣ **Balloon Tip Clicked**
+🔹 Occurs when the user clicks the balloon notification.
+
+---
+
+## 17. Tree View (`TV`)
+
+### 🔎 Definition
+
+🔹 A **Tree View** displays hierarchical information using expandable and collapsible nodes.
+
+### Properties
+
+1️⃣ **Nodes**
+🔹 Represents the nodes or items in the tree.
+
+2️⃣ **Image List**
+🔹 Defines the collection of images used by the Tree View.
+
+3️⃣ **Selected Image Index**
+🔹 Defines the image index displayed when a node is selected.
+
+4️⃣ **State Image Index**
+🔹 Defines the image index used for the node's state.
+
+5️⃣ **Selected Image Key**
+🔹 Defines the image key used when a node is selected.
+
+6️⃣ **State Image Key**
+🔹 Defines the image key used for the node's state.
+
+7️⃣ **Image Index**
+🔹 Defines the default image index.
+
+8️⃣ **Image Key**
+🔹 Defines the default image key.
+
+9️⃣ **Check Boxes**
+🔹 Displays check boxes next to the nodes.
+
+### Events
+
+1️⃣ **After Select**
+🔹 Occurs after a node is selected.
+
+2️⃣ **Mouse Double Click**
+🔹 Occurs when the user double-clicks with the mouse.
+
+3️⃣ **After Check**
+🔹 Occurs after a node's check box is checked or unchecked.
+
+4️⃣ **After Expand**
+🔹 Occurs after a node is expanded.
+
+5️⃣ **After Collapse**
+🔹 Occurs after a node is collapsed.
+
+---
+
+## 18. Image List (`IL`)
+
+### 🔎 Definition
+
+🔹 An **Image List** stores a collection of images that can be used by controls such as Tree View and List View.
+
+### Properties
+
+1️⃣ **Images**
+🔹 Represents the collection of images.
+
+2️⃣ **Image Size**
+🔹 Defines the size of the images.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 19. Progress Bar (`PRB`)
+
+### 🔎 Definition
+
+🔹 A **Progress Bar** shows the progress of an operation.
+
+### Properties
+
+1️⃣ **Maximum**
+🔹 Defines the maximum value.
+
+2️⃣ **Minimum**
+🔹 Defines the minimum value.
+
+3️⃣ **Value**
+🔹 Represents the current progress value.
+
+4️⃣ **Step**
+🔹 Defines the amount added during each progress step.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 20. List View (`LSV`)
+
+### 🔎 Definition
+
+🔹 A **List View** displays a collection of items in different visual formats.
+
+### Properties
+
+1️⃣ **View**
+🔹 Defines the display mode, such as Details, Large Icons, or Small Icons.
+
+2️⃣ **Small Image List**
+🔹 Defines the Image List used for small images.
+
+3️⃣ **Large Image List**
+🔹 Defines the Image List used for large images.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 21. Error Provider (`EP`)
+
+### 🔎 Definition
+
+🔹 An **Error Provider** displays an error indicator next to a control when its input is invalid.
+
+### Properties
+
+1️⃣ **Icon**
+🔹 Defines the error icon.
+
+2️⃣ **Blink Rate**
+🔹 Defines how quickly the error icon blinks.
+
+3️⃣ **Blink Style**
+🔹 Defines the blinking behavior of the error icon.
+
+### Events
+
+1️⃣ **Text Box: Event: Validating**
+🔹 The Text Box uses the **Validating** event to check whether the entered data is valid.
+
+---
+
+## 22. Track Bar (`TRB`)
+
+### 🔎 Definition
+
+🔹 A **Track Bar** allows the user to select a value by moving a slider.
+
+### Properties
+
+1️⃣ **Maximum**
+🔹 Defines the maximum value.
+
+2️⃣ **Minimum**
+🔹 Defines the minimum value.
+
+3️⃣ **Value**
+🔹 Represents the current value.
+
+4️⃣ **Step**
+🔹 Defines the amount of change.
+
+5️⃣ **Small Change**
+🔹 Defines the amount of change when using the arrow buttons.
+
+6️⃣ **Large Change**
+🔹 Defines the amount of change when clicking on the track.
+
+### Events
+
+1️⃣ **Scroll**
+🔹 Occurs when the user moves the slider.
+
+---
+
+## 23. Numeric Up Down (`NUD`)
+
+### 🔎 Definition
+
+🔹 A **Numeric Up Down** allows the user to enter or select a numeric value using up and down buttons.
+
+### Properties
+
+1️⃣ **Increment**
+🔹 Defines the amount added or subtracted when the value changes.
+
+### Events
+
+1️⃣ **Value Change**
+🔹 Occurs when the numeric value changes.
+
+2️⃣ **Enter**
+🔹 Occurs when the control receives focus.
+
+---
+
+## 24. Tab Control (`TC`)
+
+### 🔎 Definition
+
+🔹 A **Tab Control** organizes content into multiple tab pages.
+
+### Properties
+
+1️⃣ **Tab Pages**
+🔹 Represents the pages contained inside the Tab Control.
+
+2️⃣ **Alignment**
+🔹 Defines the position of the tabs.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 25. Panel (`PN`)
+
+### 🔎 Definition
+
+🔹 A **Panel** is a container used to organize and group other controls.
+
+### Properties
+
+1️⃣ **Auto Scroll**
+🔹 Automatically provides scrolling when the content is larger than the available area.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 26. Color Dialog (`CD`)
+
+### 🔎 Definition
+
+🔹 A **Color Dialog** allows the user to select a color.
+
+### Properties
+
+🔹 Uses standard dialog properties.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 27. Font Dialog (`FD`)
+
+### 🔎 Definition
+
+🔹 A **Font Dialog** allows the user to select font settings.
+
+### Properties
+
+🔹 Uses standard dialog properties.
+
+### Events
+
+1️⃣ **Apply**
+🔹 Occurs when the selected font is applied.
+
+---
+
+## 28. Save File Dialog (`SFD`)
+
+### 🔎 Definition
+
+🔹 A **Save File Dialog** allows the user to choose a location and name for saving a file.
+
+### Properties
+
+🔹 Uses standard dialog properties.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 29. Open File Dialog (`OFD`)
+
+### 🔎 Definition
+
+🔹 An **Open File Dialog** allows the user to select a file to open.
+
+### Properties
+
+🔹 Uses standard dialog properties.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 30. Folder Browser Dialog (`FBD`)
+
+### 🔎 Definition
+
+🔹 A **Folder Browser Dialog** allows the user to select a folder.
+
+### Properties
+
+🔹 Uses standard dialog properties.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 31. MDI Container
+
+### 🔎 Definition
+
+🔹 An **MDI Container** is a parent Form that can contain multiple child Forms.
+
+### Properties
+
+1️⃣ **Form: Is MDI Container**
+🔹 Determines whether the Form works as an MDI container.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 32. Menu Strip (`MS`)
+
+### 🔎 Definition
+
+🔹 A **Menu Strip** provides menus and commands that the user can access from the application window.
+
+### Properties
+
+1️⃣ **Short Cut Keys**
+🔹 Defines keyboard shortcuts for menu items.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 33. Context Menu Strip (`CMS`)
+
+### 🔎 Definition
+
+🔹 A **Context Menu Strip** provides a menu that appears when the user right-clicks a control or area.
+
+### Properties
+
+1️⃣ **Text Box: Context Menu**
+🔹 Connects the Context Menu Strip to a Text Box.
+
+### Events
+
+🔹 Uses standard control events.
+
+---
+
+## 34. Additional Element
+
+### 🔎 Definition
+
+🔹 No details were specified for this element in the original notes.
+
+---
+
+# 📌 Important Notes
+
+## 🟨 Common Properties
+
+🟩 **Name**
+🔹 The identifier used to reference the control in code.
+
+🟩 **Text**
+🔹 The text displayed by the control.
+
+🟩 **Enabled**
+🔹 Enables or disables the control.
+
+🟩 **Visible**
+🔹 Shows or hides the control.
+
+🟩 **Location**
+🔹 Defines the position of the control.
+
+🟩 **Size**
+🔹 Defines the width and height of the control.
+
+🟩 **Font**
+🔹 Defines the font used by the control.
+
+🟩 **ForeColor**
+🔹 Defines the text or foreground color.
+
+🟩 **BackColor**
+🔹 Defines the background color.
+
+🟩 **TabIndex**
+🔹 Defines the order of controls when using the **Tab** key.
+
+🟩 **Anchor**
+🔹 Defines how the control remains attached to the edges of its parent when the parent is resized.
+
+🟩 **Dock**
+🔹 Defines how the control is attached to an edge or fills an area of its parent container.
+
+---
+
+## 🟨 Common Events
+
+🟩 **Click**
+🔹 Occurs when the user clicks the control.
+
+🟩 **DoubleClick**
+🔹 Occurs when the user double-clicks the control.
+
+🟩 **MouseEnter**
+🔹 Occurs when the mouse pointer enters the control.
+
+🟩 **MouseLeave**
+🔹 Occurs when the mouse pointer leaves the control.
+
+🟩 **KeyPress**
+🔹 Occurs when the user presses a key.
+
+🟩 **Enter**
+🔹 Occurs when the control receives focus.
+
+🟩 **Leave**
+🔹 Occurs when the control loses focus.
+
+---
+
+# ✨ Summary
+
+✅ **Form** → Main window and container for controls.
+✅ **Text Box** → Allows the user to enter or display text.
+✅ **Button** → Performs an action when clicked.
+✅ **Label** → Displays text.
+✅ **Check Box** → Selects or deselects an option.
+✅ **Radio Button** → Selects an option from a group.
+✅ **Group Box** → Groups related controls.
+✅ **Picture Box** → Displays images.
+✅ **Masked Text Box** → Controls the format of user input.
+✅ **Combo Box** → Selects an item from a drop-down list.
+✅ **Link Label** → Displays clickable link-like text.
+✅ **Check List Box** → Allows multiple selections using check boxes.
+✅ **Date Time Picker** → Selects a date or time.
+✅ **Month Calendar** → Displays and selects dates.
+✅ **Timer** → Performs actions at regular time intervals.
+✅ **Notify Icon** → Displays an icon in the notification area.
+✅ **Tree View** → Displays hierarchical data.
+✅ **Image List** → Stores images for other controls.
+✅ **Progress Bar** → Displays operation progress.
+✅ **List View** → Displays items in different views.
+✅ **Error Provider** → Displays validation errors.
+✅ **Track Bar** → Selects a value using a slider.
+✅ **Numeric Up Down** → Selects a numeric value.
+✅ **Tab Control** → Organizes content into tab pages.
+✅ **Panel** → Groups and organizes controls.
+✅ **Color Dialog** → Allows color selection.
+✅ **Font Dialog** → Allows font selection.
+✅ **Save File Dialog** → Allows the user to select where to save a file.
+✅ **Open File Dialog** → Allows the user to select a file to open.
+✅ **Folder Browser Dialog** → Allows the user to select a folder.
+✅ **MDI Container** → Contains multiple child Forms.
+✅ **Menu Strip** → Provides application menus.
+✅ **Context Menu Strip** → Provides right-click menus.
